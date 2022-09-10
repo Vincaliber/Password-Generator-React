@@ -1,0 +1,66 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.mt10 {
+  margin-top: 10px !important;
+}
+
+.container {
+  height: 100vh;
+  justify-content: center;
+  background: #293462;
+  align-items: center;
+}
+
+.pwdGenForm {
+  text-align: center !important;
+  background: #F24C4C;
+  border-radius: 10px;
+  color: #fff;
+  width: 100%;
+  max-width: 50%;
+}
+
+.genValueFormStyle {
+  position: relative;
+}
+
+.genValueFormStyle i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #000;
+  cursor: pointer;
+}
+
+.rangeSlider {
+  background: yellow;
+  border: solid 1px #82cfd0;
+  border-radius: 8px;
+  height: 7px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+.genBtn {
+  background: yellow;
+  color: #000;
+} 
+
+.formFields {
+  width: 100%;
+  max-width: 70%;
+  margin: 0 auto;
+  background: #EC9B3B;
+  border-radius: 5px;
+}
+
+.yellowColor {
+  background-color: yellow;
+  width: 10px;
+  height: 15px;
+  border: 1px solid #000;
+  display: inline-block;
+}
